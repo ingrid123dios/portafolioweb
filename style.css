@@ -22,7 +22,7 @@ right: 0;
 }
 
 
-.nav-bar{
+.a >h4{
 display: flex;
 justify-content: end;
 gap: 1rem;
@@ -30,14 +30,16 @@ padding: 1.5rem;
 font-size: 1.3rem;
 
 }
+ 
 
-.nav-bar >h4:hover{
-    color: rgb(253, 8, 8);
-   
-    
+.a >h4:hover{
+    color: rgb(253, 8, 8); 
+}
+a{
+    text-decoration: none;
 }
  /* Aqui inicia la secion de servicios */
- .SERVICIOS{
+ .SERVICIOS .habilidades{
     padding: 5rem;
  } 
 
@@ -62,4 +64,54 @@ font-size: 1.3rem;
         line-height: 32px;
         text-align: justify;
         padding-top: 3rem;
+    }
+
+    /* Aqui inicia la secion de servicios */
+    .habilidades{
+        
+        padding: 5rem;
+    }
+    .habilidades-title{
+        margin-bottom: 3rem;
+    }
+    .habilidades{
+       
+        display: flex;
+       justify-content:space-between;
+       justify-items: space-between;
+       justify-content: space-between;
+       justify-items: space-between;
+       gap: 1rem;
+    }
+    .imagen-habilidades{
+        display: flex;
+        gap: 50px;
+        padding: 1rem;
+    }
+
+
+
+    .row1 > img{
+        width: 100px;
+        margin: .5rem;
+    }
+
+    .row2 > img{
+        width: 100px;
+        margin: .5rem;
+     
+    }
+
+    .row3 >img{
+        width: 100px;
+        margin: .5rem;
+    }
+    
+    .habilidades{
+        background-color: brown;
+        display: flex;
+        justify-content:space-between;
+       justify-items: space-between;
+       justify-content: space-between;
+       justify-items: space-between;
     }
