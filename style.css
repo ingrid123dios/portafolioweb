@@ -41,6 +41,8 @@ a{
  /* Aqui inicia la secion de servicios */
  .SERVICIOS .habilidades{
     padding: 5rem;
+    display: flex;
+    gap: 4rem;
  } 
 
  .imagen-SERVICIOS{
@@ -114,4 +116,26 @@ a{
        justify-items: space-between;
        justify-content: space-between;
        justify-items: space-between;
+    }
+
+    /* aqui inicia la secion de portafolio */
+
+    .img_proyect1{
+        width: 400px;
+       margin-top: 4rem;
+       box-shadow: 1px 1px 10px 1px blueviolet;
+       border-radius: 1rem;
+    }
+
+    .mi_portafolio{
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        justify-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+     
+    .parrafo_portafolio{
+        margin: 1rem;
     }
